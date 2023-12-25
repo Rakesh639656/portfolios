@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #0D0D0D;
+}
+
+.navbar-nav .nav-item .nav-link{
+    color: white;
+}
+.navbar-brand{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+.navbar-nav .nav-item .nav-link{
+    position: relative;
+}
+.navbar-nav .nav-item .nav-link{
+    width: 100%;
+}
+
+
+.navbar-nav .nav-item .nav-link:before{
+    position: absolute;
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-color: rgb(66, 185, 66);
+    top: 30px;
+    transition: linear  0.3s;
+}
+.navbar-nav .nav-item .nav-link:hover:before{
+    width: 40%;
+}
+header{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    width: 100%;
+    float: left;
+}
+.contact{
+    margin-top: 100px;
+}
+.contact .container{
+    background-color: black;
+    padding: 30px;
+}
+.contact .section-title h2{
+    color: aliceblue;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+.contact .section-title p{
+    color: white;
+    font-weight: 790;
+    font-size: 34px;
+}
+.contact .info-box{
+    color: #444444;
+    background-color: rgba(255, 255, 255, 0.08);
+    padding: 20px;
+    width: 100%;
+}
+.contact .info-box i.bx{
+    font-size: 24px;
+    color: #18d26e;
+    border-radius: 50%;
+    padding: 14px;
+    background-color: rgba(255, 255, 255, 0.1);
+    float: left;
+}
+.contact .info-box h3 {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 700;
+    margin: 10px 0 8px 68px;
+}
+.contact .info-box p {
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    line-height: 24px;
+    margin: 0px 0 0px 68px;
+    padding: 0;
+}
+.contact .info-box .social-links{
+    display: flex;
+    margin: 5px 0px 0px 68px;
+}
+.contact .info-box .social-links a{
+    color: white;
+    line-height: 1;
+    font-size: 18px;
+    margin-right: 12px;
+    display: inline-block;
+    transition: 0.3s;
+    color: #ffffff;
+}
+.contact .email-form{
+    background: rgba(255, 255, 255, 0.08);
+    padding: 30px;
+}
+.contact .email-form input{
+    padding: 10px 15px;
+    background-color: rgba(255, 255, 255, 0.08);
+    border: 0;
+    color: white;
+    border-radius: 0;
+    font-size: 15px;
+}
+.contact .email-form textarea{
+    padding: 12px 15px;
+    background-color: rgba(255, 255, 255, 0.08);
+    border: 0;
+    color: white;
+    border-radius: 0;
+    font-size: 15px;
+    width: 100%;
+}
+.contact .email-form input::placeholder{
+    color: rgb(162, 161, 161);
+    font-size: 15px;
+    letter-spacing: 1px;
+    
+}
+.contact .email-form button[type=submit] {
+    background: #18d26e;
+    border: 0;
+    padding: 10px 30px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 4px;
+  }
+  
